@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/menu.css' rel='stylesheet'>
+    <link rel="stylesheet" href="price.css">
+    <title>Pricing</title>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="pics/logo.svg" alt="logo">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a class="nav-link" href="index.html">Home</a></li>
+                <li><a class="nav-link" href="#">Pricing</a></li>
+                <li><a class="nav-link" href="#">Resources</a></li>
+                
+            </ul>
+        </nav>
+
+
+        <div class="more">
+            <div id="more-container" class="more-container">
+                <a style="color: white;" href="index.html" class="nav-link2 t1">Home</a> <br> 
+                <a style="color: white;" href="#" class="nav-link2 t2">Pricing</a> <br> 
+                <a style="color: white;" href="#" class="nav-link2 t3">Resources</a> <br> 
+                <hr>
+                <a style="color: white;" href="login.html" class="nav-link2 t4">Login</a> <br> 
+                <a href="#">
+                <button class="btn3">Sign Up</button>
+                </a>
+            </div>
+        </div>
+
+
+        <div class="cart">
+            <li><a class="nav-link" href="login.html">Login</a></li>
+            <a href="#">
+            <button class="btn">Sign Up</button>
+            </a>
+            <i id="menu" class="gg-menu"></i>
+        </div>
+    </header>
+
+    <h1 class="price">Pricing</h1>
+
+    <section class="container">
+        <div class="card">
+           
+            <h2>Basic</h2>
+            <p>$9.99 <span class="sp">/m</span></p>
+            <h3>100 trys</h3>
+            <hr>
+            <h3>One user</h3>
+            <hr>
+            <h3>Watermark</h3>
+            <button class="learn">Learn More</button>
+        </div>
+
+        <div class="card">
+           
+            <h2 class="pro">Professional</h2>
+            <p>$19.99 <span class="sp">/m</span></p>
+            <h3>500 trys</h3>
+            <hr>
+            <h3>Three users</h3>
+            <hr>
+            <h3>No Watermark</h3>
+            <button class="learn">Learn More</button>
+        </div>
+        <div class="card">
+           
+            <h2 class="pro">Master</h2>
+            <p>$39.99 <span class="sp">/m</span></p>
+            <h3>Unlimited trys</h3>
+            <hr>
+            <h3>Ten users</h3>
+            <hr>
+            <h3>No Watermark</h3>
+            <button class="learn">Learn More</button>
+        </div>
+
+    </section>
+
+
+
+    <script>
+        const product = document.getElementById("menu");
+      
+      product.addEventListener("click", function() {
+          var container = document.querySelector(".more");
+      
+          if (container.style.display === "none") {
+              container.style.display = "block";
+          } else {
+              container.style.display = "none";
+          }
+      });
+      
+      
+              
+          </script>
+</body>
+</html>

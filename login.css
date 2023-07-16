@@ -1,0 +1,307 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: #e4dfdd;
+}
+
+.container{
+    background-color: white;
+    width: 530px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+}
+
+.new{
+    font-size: 18px;
+    color: grey;
+}
+
+.link{
+    font-size: 18px;
+}
+
+.container p{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.email{
+    width: 450px;
+    height: 40px;
+    border: 1px solid rgb(156, 156, 156);
+    margin-left: 30px;
+    margin-top: 33px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 18px;
+}
+
+header{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    height: 10vh;
+    align-items: center;
+    
+    
+}
+
+.logo-container, .nav-links, .cart{
+    display: flex;
+    align-items: center;
+}
+
+.logo-container{
+    flex: 1;
+}
+
+nav{
+    flex: 1;
+}
+
+.nav-links{
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav-link{
+    color: grey;
+    font-size: 18px;
+}
+
+.nav-link:hover{
+    color: black;
+}
+
+.cart{
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.btn{
+   margin: 30px;
+   background-color: rgb(44,208,208);
+   color: white;
+   border: none;
+   outline: none;
+   border-radius: 25px;
+   width: 105px;
+   height: 35px;
+   cursor: pointer;
+}
+
+.btn:hover{
+    opacity: .8;
+}
+
+.btn:active{
+    background-color: rgb(34, 180, 180);
+}
+
+.gg-menu{
+    display: none;
+    cursor: pointer;
+}
+
+@media (max-width: 800px) {
+    .gg-menu{
+        display: block;
+    }
+
+    .nav-link{
+        display: none;
+    }
+
+    .btn{
+        display: none;
+    }
+}
+
+.btn2{
+    background-color: rgb(44,208,208);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    width: 166px;
+    height: 44px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 50px;
+}
+
+.btn2:hover{
+    opacity: .8;
+}
+
+.btn2:active{
+    background-color: rgb(34, 180, 180);
+}
+
+.presentation{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    min-height: 90vh;
+    align-items: center;
+    
+}
+
+.introdaction{
+    flex: 1;
+}
+
+.cover{
+    flex: 1;
+}
+
+.cover img{
+    height: 60vh;
+}
+
+@media (max-width: 770px){
+    .presentation{
+        display: block;
+        margin-top: 20px;
+    }
+}
+
+.intotext h1{
+    font-size: 60px;
+}
+
+.intotext p{
+    color: grey;
+    font-size: 20px;
+}
+
+.btn2{
+    margin-top: 30px;
+}
+
+.intotext{
+    margin-left: 50px;
+}
+
+
+
+.more{
+    display: none;
+    background-color: rgb(71, 0, 153);
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    font-size: 24px;
+    margin-top: 470px;
+    position: absolute;
+    margin-left: 8px;
+    width: 360px;
+    height: 380px;
+    text-align: center;
+    line-height: 3;
+    animation: slide-in;
+    animation: drop .3s ease
+    
+}
+
+.t1{
+    margin-top: 30px;
+}
+
+.nav-link2{
+    cursor: pointer;
+}
+
+hr{
+    color: grey;
+}
+
+@keyframes drop {
+    0%{
+        opacity: 0;
+        transform: translateX(-80px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.login-btn{
+    width: 450px;
+    height: 46px;
+    background-color: rgb(12,110,248);
+    color: white;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    margin-left: 30px;
+    margin-top: 30px ;
+    cursor: pointer;
+}
+
+.forgot{
+    margin-left: 30px;
+    color: rgb(12,110,248);
+}
+
+.img-icon{
+    width: 60px;
+    height: 60px;
+    border: none;
+    background-color: white;
+    outline: none;
+}
+
+.gg-eye{
+    margin-left: 450px;
+    margin-top: -30px;
+    cursor: pointer;
+}
+
+.login-btn:hover{
+    opacity: .8;
+}
+
+.login-btn:active{
+    background-color: rgb(11, 101, 226);
+}
+
+.btn3{
+    background-color: rgb(44,208,208);
+    color: white;
+    border: none;
+    outline: none;
+    width: 140px;
+    height: 35px;
+    border-radius: 20px;
+    margin-top: -20px;
+    font-size: 20px;
+}
+
+.card
+

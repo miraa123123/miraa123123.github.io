@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/menu.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/eye.css' rel='stylesheet'>
+    <link rel="stylesheet" href="login.css">
+    <title>Sign up</title>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="pics/logo.svg" alt="logo">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a class="nav-link" href="index.html">Home</a></li>
+                <li><a class="nav-link" href="price.html">Pricing</a></li>
+                <li><a class="nav-link" href="#">Resources</a></li>
+                
+            </ul>
+        </nav>
+
+
+        <div class="more">
+            <div id="more-container" class="more-container">
+                <a style="color: white;" href="index.html" class="nav-link2 t1">Home</a> <br> 
+                <a style="color: white;" href="price.html" class="nav-link2 t2">Pricing</a> <br> 
+                <a style="color: white;" href="#" class="nav-link2 t3">Resources</a> <br> 
+                <hr>
+                <a style="color: white;" href="login.html" class="nav-link2 t4">Login</a> <br> 
+                <a href="#">
+                <button class="btn3">Sign Up</button>
+                </a>
+            </div>
+        </div>
+
+
+        <div class="cart">
+            <li><a class="nav-link" href="login.html">Login</a></li>
+            <a href="signup.html">
+            <button class="btn">Sign Up</button>
+            </a>
+            <i id="menu" class="gg-menu"></i>
+        </div>
+    </header>
+
+
+    <section class="main">
+        <div class="container">
+            <h1 class="login">Sign Up</h1>
+            <input class="email" type="text" placeholder="Username" style="text-indent: 10px;">
+            <input class="email" type="email" placeholder="Email address" style="text-indent: 10px;">
+            
+            <input id="inp-pass" class="email" type="password" placeholder="Password" style="text-indent: 10px;">
+            
+            <input class="email" type="password" placeholder="Confirm Password" style="text-indent: 10px;">
+
+            
+            <button class="login-btn">LOG IN</button>
+
+           
+       
+        </div>
+    </section>
+
+    <script>
+        const product = document.getElementById("menu");
+      
+      product.addEventListener("click", function() {
+          var container = document.querySelector(".more");
+      
+          if (container.style.display === "none") {
+              container.style.display = "block";
+          } else {
+              container.style.display = "none";
+          }
+      });
+
+      const eye = document.getElementById("eye");
+      const inp = document.getElementById("inp-pass");
+
+      eye.addEventListener("click", ()=>{
+        if (inp.getAttribute("type") === "password") {
+            inp.setAttribute("type", "text");
+        } else{
+            inp.setAttribute("type", "password");
+        }
+      })
+      
+      
+              
+          </script>
+</body>
+</html>
